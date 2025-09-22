@@ -18,13 +18,12 @@ Run this after installing Git:
 
 ```bash
 git lfs install
-
+---
 ## ⚠️ Caveat: If You Already Cloned Without LFS
 
 If you cloned this repo **before setting up Git LFS**, you will only see small pointer files instead of real Unreal assets.  
 
 To fix this:
 
-```bash
 git lfs install
 git lfs pull
